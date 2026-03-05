@@ -247,7 +247,6 @@ mkdir -p /Users/xxx/.openclaw/agents/{agent_id}/agent
       "id": "{agent_id}",
       "name": "{agent_id}",
       "workspace": "/Users/xxx/.openclaw/workspace",
-      "agentDir": "/Users/xxx/.openclaw/agents/{agent_id}/agent",
       "model": "zenmux-ai/anthropic/claude-opus-4.6"
     }
   ]
@@ -255,7 +254,6 @@ mkdir -p /Users/xxx/.openclaw/agents/{agent_id}/agent
 ```
 
 **⚠️ workspace 字段：所有 Agent 指向同一个路径 `/Users/xxx/.openclaw/workspace`。**
-**agentDir 保持独立（`~/.openclaw/agents/{id}/agent`），隔离 session 内部状态。**
 
 #### 7c. 添加 `bindings` 数组
 

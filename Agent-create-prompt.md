@@ -1,4 +1,4 @@
-
+for jacky
 
 # 任务：配置多 Agent TG 群组系统（共享 Workspace + MemOS 记忆）
 
